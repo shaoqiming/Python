@@ -1,3 +1,4 @@
+
 def checkIndex(key):
     if not isinstance(key,(int,long)):raise TypeError
     if key<0:raise IndexError
@@ -12,8 +13,9 @@ class ArithmeticSequence:
         checkIndex(key)
         try:return self.changed[key]
         except KeyError:
-            return self.start+key*self.step;
-    def __setitem__(self,key,value):        checkIndex(key);
+            return self.start+key*self.step
+    def __setitem__(self,key,value):      
+        checkIndex(key)
         self.changed[key]=value
 
 

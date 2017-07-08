@@ -4,7 +4,7 @@ from random import random
 from math import sqrt
 from time import clock
 
-DARTS = 120000000
+DARTS = 120000
 hits = 0
 clock()
 
