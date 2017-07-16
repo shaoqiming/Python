@@ -85,9 +85,3 @@ dog=MyDog()
 print len(dog)# 输出100
 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 3196c487e71434df2a6505d8b8648339afa252fe
