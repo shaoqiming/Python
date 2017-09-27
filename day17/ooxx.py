@@ -41,7 +41,7 @@ def find_image(url):
 
     return img_address;
 
-
+#保存图片
 def save_image(folder,image_addre):
     for image in image_addre:
         filenname=image.split('/')[-1]
